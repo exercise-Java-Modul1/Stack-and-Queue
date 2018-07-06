@@ -13,9 +13,8 @@ public class ChuyenDoiHeThapPhanSangNhiPhan {
             number = number/2;
         }
 
-        for (int j = stack.size(); j > 0 ; j--) {
-            System.out.print(stack.pop() + " \t");
+        while (!stack.isEmpty()) {
+            System.out.print(stack.pop() + "\t");
         }
-
     }
 }
